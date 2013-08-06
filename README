@@ -1,0 +1,24 @@
+Flask-PyMongo
+=============
+
+Disclaimer
+----------
+
+I wrote and abandoned this back in 2011. It was never used in production. I'm
+throwing it up in the public partially so I don't lose it and partially in case
+anybody wishes to provide constructive criticism.
+
+Unfortunately, between the time I wrote this and now, someone else wrote an
+official extension with the same name. I'm leaving the name as-is for now. If
+someone encounters this repository and is bothered by the name, please just
+contact me and we can sort it out.
+
+
+Description
+-----------
+
+Flask-PyMongo aims to provide a minimal wrapper around pymongo to support
+schemaless models for Flask applications. The intention is to provide a means
+of integration with standard Flask configuration and encourage code
+organization through models without deviating away from the already
+clean and flexible pymongo API.
